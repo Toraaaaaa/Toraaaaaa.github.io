@@ -107,6 +107,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Georgia", serif;
+  
 }
 
 p {
@@ -612,7 +613,7 @@ section {
 
 .mh-header {
   padding: 0;
-  background: #07011e;
+  background: rgba(23, 61, 92,0.5);
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -621,13 +622,14 @@ section {
 .mh-header.nav-strict {
   padding: 0;
   -webkit-transition: 0.3s;
-  transition: 0.3s;
+  transition: 10s;
   z-index: 9999;
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
-  background: #07011e;
+  background:rgba(55, 33, 75, 0.5);
+  
 }
 
 .mh-header.nav-strict .mh-nav {
